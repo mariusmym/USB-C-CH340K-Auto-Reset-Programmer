@@ -6,7 +6,7 @@ A compact USB-to-serial programmer for ESP-based boards, featuring a **CH340K** 
 ![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 ![EDA: EasyEDA](https://img.shields.io/badge/EDA-EasyEDA-blue.svg)
 
-<img width="500" height="375" alt="527034675_17967334817932042_1660775298333000321_n" src="https://github.com/user-attachments/assets/edaca671-a6d6-4dcf-949c-a02818f5f4d1" /> <img width="500" height="375" alt="528291898_17967334844932042_6297733156439024908_n" src="https://github.com/user-attachments/assets/a1093d89-53a5-4122-96f9-65848888caed" />
+<img width="500" height="375" alt="527034675_17967334817932042_1660775298333000321_n" src="https://github.com/user-attachments/assets/edaca671-a6d6-4dcf-949c-a02818f5f4d1" /> 
 
 ---
 
@@ -117,20 +117,6 @@ From there you can:
 - Download the BOM for component sourcing
 - Order PCBs directly via JLCPCB
 
-## Bill of Materials (Key Components)
-
-| Component        | Value / Part     | Package   | Qty | Notes                                |
-|:-----------------|:-----------------|:---------:|:---:|:-------------------------------------|
-| U1               | CH340K           | ESSOP-10  |  1  | USB-to-UART bridge, integrated clock |
-| J1               | USB-C receptacle | SMD       |  1  | USB Type-C connector                 |
-| J2               | Pin header 1×6   | 2.54mm    |  1  | Connection to target board           |
-| Q1, Q2           | NPN transistor   | SOT-23    |  2  | Auto-reset circuit (e.g., S8050)     |
-| R1, R2           | 10kΩ             | 0402/0603 |  2  | Base resistors for Q1, Q2            |
-| C1               | 100nF            | 0402/0603 |  1  | VCC decoupling                       |
-| C2               | 100nF            | 0402/0603 |  1  | V3 decoupling                        |
-| C_EN             | 100nF–1µF        | 0402/0603 |  1  | EN timing capacitor                  |
-
-> **Note:** Exact BOM may vary — refer to the EasyEDA project for the authoritative component list.
 
 ## 3D Printable Accessories
 
@@ -163,9 +149,3 @@ To keep the pin header stable during programming, you can 3D print a clip or hol
 This project is licensed under **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**.
 
 You are free to share and adapt this design, provided you give appropriate credit and distribute any derivative works under the same license.
-
-## Credits
-
-- **Designer:** [marius](https://oshwlab.com/mariusmym) on OSHWLab
-- **Auto-reset circuit:** Based on Espressif's reference design for ESP32 DevKitC
-- **3D clip:** [Modular Programming Clip](https://www.printables.com/model/378005-modular-programming-clip) on Printables

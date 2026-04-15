@@ -142,7 +142,7 @@ To keep the pin header stable during programming, you can 3D print a clip or hol
 
 ## Related Projects
 
-- [WLED 2024 Mini P](https://oshwlab.com/mariusmym/wled2024_mini_p) — an ESP-based LED controller board designed to work with this programmer
+- [(https://oshwlab.com/mariusmym/wled2024_mini_p)](https://oshwlab.com/mariusmym/wled2024_mini_p) — an ESP-based LED controller board that can work with this programmer.
 
 ## License
 

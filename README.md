@@ -6,6 +6,8 @@ A compact USB-to-serial programmer for ESP-based boards, featuring a **CH340K** 
 ![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 ![EDA: EasyEDA](https://img.shields.io/badge/EDA-EasyEDA-blue.svg)
 
+<img width="500" height="375" alt="527034675_17967334817932042_1660775298333000321_n" src="https://github.com/user-attachments/assets/edaca671-a6d6-4dcf-949c-a02818f5f4d1" /> <img width="500" height="375" alt="528291898_17967334844932042_6297733156439024908_n" src="https://github.com/user-attachments/assets/a1093d89-53a5-4122-96f9-65848888caed" />
+
 ---
 
 ## Why This Exists
